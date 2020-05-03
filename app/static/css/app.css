@@ -2,6 +2,47 @@ body {
     padding-top: 5rem;
 }
 
+body h2{
+    margin-top: 5rem;
+    margin-left: 26rem;
+}
+
 footer  {
     padding-top: 20px;
+}
+
+.news__list{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 30px
+}
+
+li{
+    list-style-type: none;
+}
+
+.article{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px lightgrey;
+    border-top: 5px solid rgb(95,196,163);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 31rem;
+    padding: 5px;
+    width:30rem;
+}
+
+.article .news__item1{
+    font-size: 24px;
+}
+
+.news__item1, .news__item3{
+    text-align:left;
+}
+
+img{
+    height:17rem;
+    width:29rem;
 }
